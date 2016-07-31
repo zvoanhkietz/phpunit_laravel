@@ -15,7 +15,7 @@ class AuthTest extends TestCase
      * @return void
      */
     public function testUserLoginSuccess()
-    {        
+    {
         // create user to test
         factory(App\User::class)->create([
             'email'    => 'admin@testsys.com',
