@@ -4,5 +4,5 @@ linters:
         extensions: '.php'
         tab_width: 4
 files:
-    ignore: ['vendor/*']
+    ignore: ['vendor/*', 'resources/*']
     
