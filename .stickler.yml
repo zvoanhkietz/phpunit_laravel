@@ -1,0 +1,8 @@
+linters:
+    phpcs:
+        standard:  PSR2
+        extensions: '.php'
+        tab_width: 4
+files:
+    ignore: ['vendor/*', 'resources/*']
+    
